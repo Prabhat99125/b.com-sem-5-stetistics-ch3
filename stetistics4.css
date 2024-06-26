@@ -1,0 +1,138 @@
+h2 {
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+p {
+    text-align: center;
+}
+.btn {
+    text-align: -webkit-center;
+}
+#namunaNo {
+    width: 150px;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 4px;
+}
+#btn, #getData {
+    margin-top: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: 700;
+    background-color: rgba(191, 191, 255, 0.537);
+}
+#getData {
+    margin-top: 10px;
+}
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    border-radius: 2px 2px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.249);
+}
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+
+    font-weight: bold;
+}
+table th, td {
+    padding: 6px 5px;    
+}
+table td {
+    border-left: 0.5px solid rgba(255, 192, 203, 0.616);
+
+}
+
+table tbody tr {
+    border-bottom: 1px solid rgba(0, 0, 255, 0.258);
+   
+}
+table tbody tr:nth-of-type(even) {
+    background-color: rgba(34, 0, 255, 0.073);
+
+}
+table tbody tr:last-of-type {
+    border-bottom: 1px solid #009879;
+}
+
+.X {
+    font-size: 19px;
+    width: 50px;
+    text-align: right;
+    font-weight: 550;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+}
+.R {
+    font-size: 19px;
+    font-weight: 550;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+    width: 50px;
+    text-align: right;
+}
+.nad {
+    width: 50px;
+    margin-left: 10px;
+    text-align: right;
+}
+
+#arrData {
+    display:  grid;;
+    justify-content: center;
+}
+#arrData table thead th {
+    width: 70px;
+}
+#arrData table tbody tr td {
+    text-align: center;
+}
+/* .xcl, .rcl {
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px 0px 10px 10px;
+    
+} */
+#cl {
+    margin-left: 30px;
+}
+#chartData{
+    display: grid;;
+    justify-content: center;
+}
+math {
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: 550;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#lineChart1, #lineChart2 {
+    height: 100px;
+}
+.xrDiv {
+    display: inline;
+}
+button {
+    display: block;
+}
+.chartName {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 0px 25px 0px 25px;
+    background-color: pink;
+    text-decoration: underline
+}
